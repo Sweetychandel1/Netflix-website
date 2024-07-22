@@ -1,0 +1,680 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-size: 100%;
+    background-color: black; */
+    /* section>div*2>div>img+div>div*3 */
+    background-color: black;
+
+    
+}
+main{
+    background-image:url(./projet_image/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+        
+}
+
+
+img{
+    height: 70px;
+    width: 160px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10%;
+}
+
+
+#cont>#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 0%;
+    position: relative;
+}
+#cont>#menu>li>div>img{
+    height: 15px;
+    width: 24px;
+    position: absolute;
+    top: 29%;
+    left: 7%;
+    background: transparent;
+
+}
+
+li> button{
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+select{
+    padding: 6px 10px;
+    width: 108%;
+    background: transparent;
+    color: white;
+    padding-right: 2px;
+    padding-left: 51px
+}
+/* ----------------------------------section------------------------------------- */
+
+    section{
+        text-align: center;
+        /* background-color: aqua; */
+        margin-top: 10%;
+    }
+
+    hr{
+        height: 0.5rem;
+        background-color:#232323;
+        border: none;
+        margin: 0;
+    }
+    section>h1{
+        font-size: 3rem;
+        color: white;
+        margin-bottom: 0;
+    }
+    section>h2{
+        font-size: 1.5rem;
+        color: white;
+    }
+    section>p{
+        font-weight: 100px;
+        color: white;
+        font-size: 1.2rem;
+    }
+    section>input{
+        height: 40px;
+        width: 30%;
+        background-color: transparent;
+        border-color: rgb(238, 227, 227);
+        padding-left: 10px;
+    
+    }
+    section>button{
+        height: 45px;
+        width: 10%;
+        margin-left: 10px;
+        background-color: red;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: white;
+    }
+
+/* -----------------------------------------------2ndSection------------------------------ */
+#enjoy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#text{
+width: 48%;
+color: white;
+}
+#text>h2{
+    font-size: 3rem;
+}
+#text>p{
+    font-size: 1.8rem;
+}
+
+#media{
+width: 48%;
+position: relative;
+}
+#media>img{
+  width: 100%;
+  position: relative;
+  height: 50%;
+  z-index: 2;
+}
+#media>video{
+    position: absolute;
+    top: 20.5%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+/* ----------------------------------------3rd Section----------------------------------------- */
+#tsection{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+#tsection>#one{
+    width: 48%;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+#tsection>#two{
+    width: 48%;
+    height: 100%;
+    text-align:start;
+}
+#tsection>#two>h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#tsection>#two>p{
+    font-size: 1.5rem;
+}
+#tsection> #one> div>#main-img{
+    height: 100%;
+    width: 100%;
+}
+#tsection> #one>#inside{
+    display: flex;
+    gap: 10px;
+    width: 55%;
+    border: 2px solid gray;
+    background-color: black;
+    border-radius: 5px;
+    height: 22%;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    padding: 7px;
+    align-items: center;
+
+}
+#tsection> #one>#inside>div>h2{
+font-size: 1rem;
+margin: 0;
+}
+
+#tsection> #one>#inside>div{
+    width: 85%;
+}
+#tsection> #one>#inside>div>p{
+    font-size: 0.8rem;
+    color: blue;
+    margin: 0;
+    }
+
+/* ----------------------------------------4th Section----------------------------------------- */
+
+#fsection{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+#fsection>#text{
+width: 48%;
+color: white;
+text-align: start;
+}
+#fsection>#text>h2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0%;
+}
+#fsection>#text>p{
+    margin: 0%;
+    font-size: 1.8rem;
+}
+
+#fsection>#media{
+width: 48%;
+position: relative;
+}
+#fsection>#media>img{
+  width: 100%;
+  position: relative;
+  height: 50%;
+  z-index: 2;
+}
+#fsection>#media>video{
+    position: block;
+    top: 13%;
+    left: 19%;
+    width: 61%;
+    z-index: 1;
+}
+
+/* ----------------------------------------LastSection------------------------------------------ */
+#lastsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(0, 0, 0);
+}
+#lastsection>img{
+    width: 48%;
+    height: 50%;
+
+}
+#lastsection>div{
+width: 48%;
+text-align: start;
+}
+#lastsection>div>h2{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin: 0%;
+}
+#lastsection>div>p{
+    color: #221b12;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+/* -------------------------Question section--------------------------- */
+#question{
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+#question > h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    padding-top: 0;
+}
+#question > ul> li{
+    padding: 1.5rem;
+    margin-bottom: 10px;
+    background-color: #2d2d2d;
+    text-align: start;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+#question> p{
+    font-weight: 200px;
+    color: white;
+    font-size: 1.3rem;
+}
+section> div> input{
+    height: 40px;
+    width: 25%;
+    background-color: transparent;
+    border-color: rgb(238, 227, 227);
+    padding-left: 10px;
+
+}
+section>div >button{
+    height: 45px;
+    width: 15%;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------footer------------------------------- */
+
+footer{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer>section{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    margin-top: 1rem;
+    background-color:black;
+    gap: 8rem;
+    
+
+}
+footer>section>div{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: self-start;
+    gap: 13px;
+    margin: 0%;
+    padding: 0%;
+   
+   
+}
+footer>section>div>a,p{
+    color: #b3b3b3;
+    font-size: 0.9.5rem;
+}
+
+footer>a{
+    color: #b3b3b3;
+    font-size: 1.1rem; 
+}
+footer>div>select{
+    text-align: start;
+    width: 8rem;
+    position: relative;
+}
+footer>div>img{
+    height: 15px;
+    width: 24px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 6px;
+
+}
+footer>div>p{
+    color:#b3b3b3;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* mobile version */
+@media (max-width:600px) {
+    body{
+        /* background-size: 10%;
+        background-position-x:center */
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    main{
+        background-image:url(./projet_image/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+        background-repeat: no-repeat;
+        height: 100%;
+        background-size: cover;
+        padding-bottom: 30px;
+            
+    }
+
+    br{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        align-items: center;
+        margin: 0;
+        margin: auto;
+        gap: 20%;
+        padding-left: 0;
+        padding-right: 0;
+    
+    }
+    select{
+        padding: 0px 0px;
+        width: 50%;
+        background: transparent;
+        color: white;
+        padding-right: 0;
+        padding-left: 51px;
+        padding-top: 1rem;
+    }
+    section{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        /* background-color: aqua; */
+        margin-top: 10%;
+
+    }
+    #cont>#menu>li>div>img{
+        height: 15px;
+        width: 24px;
+        position: absolute;
+        top: 29%;
+        left: 7%;
+        background: transparent;
+    
+    }
+    section>h1{
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 0;
+        
+    }
+    section>h2{
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 200;
+    }
+    section>p{
+        font-weight: 100px;
+        color: white;
+        font-size: 1.125rem;
+    }
+    section>input{
+        height: 40px;
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid rgb(221, 210, 210);
+        padding-left: 10px;
+    }
+    section>button{
+        height: 45px;
+        width: 60%;
+        margin-top: 20px;
+        background-color: red;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        color: white;
+    }
+
+    #enjoy{
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #text{
+        width: 100%;
+        color: white;
+        text-align: center;
+        } 
+        #text>h2{
+            font-size: 2rem;
+        }
+        #text>p{
+            font-size: 1.1rem;
+        }  
+        #media{
+            width: 100%;
+            position: relative;
+            }
+
+            #tsection{
+                display: block;
+                width: 80%;
+            }   
+            #tsection>#one{
+                width: 100%;
+                color: white;
+                text-align: center;
+                position: relative;
+            }
+            #tsection>#two{
+                width: 100%;
+                height: 100%;
+                text-align:start;
+            }
+            #tsection>#two>h2{
+                font-size: 2rem;
+                font-weight: 700;
+            }
+            #tsection>#two>p{
+                font-size: 1.1rem;
+            }
+            #fsection{
+                display: block;
+                width: 80%;
+                margin: auto;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                background-color: black;
+            }
+            #fsection>#text{
+                width: 100%;
+                color: white;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+            #fsection>#text>h2{
+                font-size: 2rem;
+                font-weight: 700;
+                margin: 0;
+                padding: 0%;
+            }
+            #fsection>#text>p{
+                margin: 0%;
+                font-size: 1.1rem;
+            }
+            #fsection>#media{
+                width: 100%;
+                position: relative;
+            }
+            #lastsection{
+                display: block;
+                width: 80%;
+                margin: auto;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                background-color: rgb(0, 0, 0);
+                text-align: center;
+            }
+            #lastsection>img{
+                width: 100%;
+                height: 50%;
+            
+            }
+            #lastsection>div{
+                width: 100%;
+                text-align: center;
+                }
+                #lastsection>div>h2{
+                    color: white;
+                    font-size: 2rem;
+                    font-weight: 700;
+                    margin: 0%;
+                }
+
+                #lastsection>div>p{
+                    color: #221b12;
+                    font-size: 1.1rem;
+                    font-weight: 100;
+               }
+               #question{
+                width: 80%;
+                margin: auto;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+            
+            }
+            #question > h2{
+                font-size: 2rem;
+                font-weight: 700;
+                margin: 0;
+                padding-top: 0;
+            }
+            #question > ul> li{
+                padding: 1.5rem;
+                margin-bottom: 10px;
+                background-color: #2d2d2d;
+                text-align: start;
+                font-size: 1.1rem;
+                list-style-type: none;
+            }
+        
+        section> div> input{
+            height: 40px;
+            width: 80%;
+            background-color: transparent;
+            border-color: rgb(238, 227, 227);
+            padding-left: 10px;
+        
+        }
+        #question>ul{
+            width: 100%;
+            margin: 0%;
+            padding: 0;
+            margin-top: 10px;
+        }
+        section>div >button{
+            height: 45px;
+            width: 50%;
+            margin-top: 1rem;
+            background-color: red;
+            border-radius: 5px;
+            border: none;
+            font-size: 20px;
+            color: white;
+        }
+        footer>section{
+            display: grid;
+            grid-template-columns: repeat(2,1px);
+            text-align: start;
+            width: 100%;
+            margin-top: 1rem;
+            background-color:black;
+            gap: 0.2rem 10rem;
+        }
+        footer>section>div{
+            display: block;
+            /* justify-content: center; */
+            flex-direction: column;
+            align-items: self-start;
+            gap: 13px;
+            margin: 0%;
+            padding: 0%;
+           
+           
+        }
+    }
